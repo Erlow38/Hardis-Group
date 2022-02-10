@@ -1,0 +1,250 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    margin-right: 2em;
+    margin-top: 1em;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    padding: 2em;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+nav a:hover {
+    color: #00a1e4;
+}
+
+#banaccueil {
+    background-color: black;
+    height: 300px;
+    background-image: url("banaccueil.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#bantransitioneco {
+    background-color: black;
+    height: 300px;
+    background-image: url("Transitioneco.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#banqsn {
+    background-color: black;
+    height: 300px;
+    background-image: url("bannierequisommenous.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#banfaq {
+    background-color: black;
+    height: 300px;
+    background-image: url("bannierefaq.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#bancontact {
+    background-color: black;
+    height: 300px;
+    background-image: url("bannierecontact.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#bannum {
+    background-color: black;
+    height: 300px;
+    background-image: url("bannierenumerique.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#titrenum {
+    text-align: left;
+    padding-left: 3em;
+}
+
+#titrecontact {
+    text-align: right;
+    padding-right: 3em;
+}
+
+h1 {
+    color: white;
+    padding-top: 2em;
+    font-weight: lighter;
+    font-size: 275%;
+    margin: 0px;
+}
+
+div a {
+    color: #00a1e4;
+    text-decoration: none;
+}
+
+div a:hover {
+    text-decoration: underline;
+}
+
+p, h2, h3, div ul {
+    text-align: center;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+p, div ul {
+    font-size: large;
+}
+
+.grostexte {
+    font-size: x-large;
+    list-style-type: none;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+    padding-bottom: 300px;
+}
+
+#qsn {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bannierequisommenous.jpg");
+    background-position: center;
+    
+    
+}
+
+#ecolo {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Transitioneco.jpg");
+    background-position: center;
+   
+    
+}
+
+#numerique {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bannierenumerique.jpg");
+    background-position: center;
+
+    
+}
+
+#faq {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("faqcarre.jpg");
+    background-position: center;
+    
+}
+
+.carre {
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.carre:hover {
+    transform: scale(1.2);
+}
+
+footer a {
+    display : block;
+    width: 17%;
+    height: 250px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: lighter;
+    
+}
+
+#sececo {
+    display: flex;
+    flex-direction:column;
+}
+
+#cop1 {
+    width: 50%;
+    
+}
+
+#cop2 {
+    background-color: black;
+    color: white;
+    width: 50%;
+    font-size:xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#decar1 {
+    background-color: black;
+    color: white;
+    width: 50%;
+    font-size:xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#decar2 {
+    width: 50%;
+    
+}
+
+.diveco {
+    flex: 1;
+    display: flex;
+}
+
+#engagement {
+    font-size: xx-large;
+}
+
+#sececo p, #sececo h2, #sececo h3{
+    padding: 2em;
+    margin: 0;
+}
+
+#black {
+    background-color: black;
+}
+
+header {
+    background-color: white;
+}
